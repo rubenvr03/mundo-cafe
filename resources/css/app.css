@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'CocoGothic';
+    src: url('../fonts/CocoGothics/CocoGothic-Light_trial.ttf') format('ttf');
+    font-weight: 300;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'CocoGothic';
+    src: url('../fonts/CocoGothics/CocoGothic_trial.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'CocoGothic';
+    src: url('../fonts/CocoGothics/CocoGothic-Bold_trial.ttf') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+  }
+html, body{
+    font-family:'CocoGothic', sans-serif;
+}

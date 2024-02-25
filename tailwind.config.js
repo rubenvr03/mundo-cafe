@@ -7,7 +7,14 @@ export default {
     "./resources/**/*.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+        colors:{
+            'bg_nav' : '#745944',
+        },
+        fontFamily:{
+            customFont:['CocoGothic', 'sans-serif'],
+        }
+    },
   },
   plugins: [],
 }

@@ -16,6 +16,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('home');
 
 Route::resource('cafeterias', CafeteriasController::class);
+Route::get('/contacto', function(){
+    return view('contact');
+})->name('contact');
