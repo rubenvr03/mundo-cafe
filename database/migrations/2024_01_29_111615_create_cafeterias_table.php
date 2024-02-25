@@ -15,7 +15,6 @@ return new class extends Migration
         Schema::create('cafeterias', function (Blueprint $table) {
             $table->id();
             $table->string('name', 255);
-            $table->string('surname', 255);
             $table->string('direction', 255);
             $table->dateTime('opening_hours', );
             $table->dateTime('ending_hours');
