@@ -1,6 +1,9 @@
-@extends('layout.app')
+@include('layout.app')
+@include('layout.home_main')
+
+
 @section('content')
-    <h1 class="text-3xl font-['CocoGothic'] font-bold underline ">
-        Mundo Café
-    </h1>
+
+
 @endsection
+@include('layout.footer')

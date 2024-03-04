@@ -28,5 +28,5 @@
     @yield('content')
 </div>
 
-@extends('layout.footer')
+
 
