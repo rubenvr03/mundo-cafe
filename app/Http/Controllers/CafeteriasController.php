@@ -11,9 +11,9 @@ class CafeteriasController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function index( Cafeterias $cafeterias)
     {
-        //
+        return view('cafeterias.index', compact($cafeterias));
     }
 
     /**
@@ -21,7 +21,7 @@ class CafeteriasController extends Controller
      */
     public function create()
     {
-        //
+        return view('cafeterias.create');
     }
 
     /**
@@ -37,7 +37,8 @@ class CafeteriasController extends Controller
      */
     public function show(Cafeterias $cafeterias)
     {
-        //
+        $cafeterias = $cafeterias::findorFile($cafeterias->id);
+        return view('cafeterias.show', compact($cafeterias));
     }
 
     /**

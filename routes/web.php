@@ -15,10 +15,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('layout.home');
 })->name('home');
 
 Route::resource('cafeterias', CafeteriasController::class);
+
 Route::get('/contacto', function(){
     return view('contact');
 })->name('contact');
