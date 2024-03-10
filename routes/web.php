@@ -19,6 +19,14 @@ Route::get('/', function () {
 })->name('home');
 
 Route::resource('cafeterias', CafeteriasController::class);
+
+
 Route::get('/contacto', function(){
     return view('contact');
 })->name('contact');
+
+Route::get('/buscar', function(){
+    return view('buscar');
+})->name('buscar');
+
+

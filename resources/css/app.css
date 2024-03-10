@@ -247,7 +247,7 @@ label {
   margin: 0 0 5px 0;
 }
 
-input {
+input, select {
   text-align: center;
   border: 2px solid #763524;
   border-radius: 20px;
@@ -270,4 +270,30 @@ input[type=submit]:hover {
   background-color: #763524;
   border: 2px solid #745944;
   cursor: pointer;
+}
+
+/* BUSCADOR */
+
+#buscador-main {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#buscador-title {
+  color: #763524;
+  letter-spacing: 3px;
+  font-size: 20pt;
+}
+
+#buscador-form {
+  display: flex;
+  justify-content: space-around;
+  width: 50hv;
+}
+
+select {
+  margin: 0 10px;
+  width: 200px;
 }
