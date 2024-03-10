@@ -15,12 +15,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('layout.home');
 })->name('home');
 
 Route::resource('cafeterias', CafeteriasController::class);
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7fcba2eaf8185f415788fa1dde8a2866f76f268c
 Route::get('/contacto', function(){
     return view('contact');
 })->name('contact');

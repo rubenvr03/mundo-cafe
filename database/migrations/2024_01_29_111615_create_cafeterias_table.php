@@ -19,7 +19,7 @@ return new class extends Migration
             $table->dateTime('opening_hours', );
             $table->dateTime('ending_hours');
             $table->string('type_coffe', 255);
-            $table->foreignIdFor(Category::class)->onDelete('cascade');
+            $table->foreignIdFor(Category::class, 'category_id')->nullable()->unsigned();
             $table->timestamps();
         });
     }

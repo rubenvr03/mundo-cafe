@@ -2,3 +2,4 @@
 @section('content')
 
 @endsection
+@extends('layout.footer')
