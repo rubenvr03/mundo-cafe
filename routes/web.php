@@ -20,10 +20,6 @@ Route::get('/', function () {
 
 Route::resource('cafeterias', CafeteriasController::class);
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 7fcba2eaf8185f415788fa1dde8a2866f76f268c
 Route::get('/contacto', function(){
     return view('contact');
 })->name('contact');
