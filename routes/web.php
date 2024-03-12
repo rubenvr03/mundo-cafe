@@ -25,7 +25,13 @@ Route::get('/contacto', function(){
 })->name('contact');
 
 Route::get('/buscar', function(){
-    return view('buscar');
+    return view('layout.buscar');
 })->name('buscar');
+
+Route::get('/unete', function(){
+    return view('layout.unete');
+})->name('unete');
+
+
 
 
