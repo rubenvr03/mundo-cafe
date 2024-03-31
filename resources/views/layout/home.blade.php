@@ -38,30 +38,21 @@
         <div class="home-sc2-img hblock">
             <div class="sc2-img-bd">
                 <div id="mad" class="sc2-img"></div>
+                <div class="sc2-img-text">Madrid</div>
             </div>
 
             <div class="sc2-img-bd">
                 <div id="bcn" class="sc2-img"></div>
+                <div class="sc2-img-text">Barcelona</div>
             </div>
 
             <div class="sc2-img-bd">
                 <div id="gnd" class="sc2-img"></div>
+                <div class="sc2-img-text">Granada</div>
             </div>
 
         </div>
 
-        <div class="home-sc2-img">
-            <div class="sc2-img-bd2">
-                <div class="sc2-img-text">Madrid</div>
-            </div>
-
-            <div class="sc2-img-bd2">
-                <div class="sc2-img-text">Barcelona</div>
-            </div>
-
-            <div class="sc2-img-bd2">
-                <div class="sc2-img-text">Granada</div>
-            </div>
 
         </div>
     </div>

@@ -23,3 +23,25 @@ Route::resource('cafeterias', CafeteriasController::class);
 Route::get('/contacto', function(){
     return view('contact');
 })->name('contact');
+
+Route::get('/buscar', function(){
+    return view('layout.buscar');
+})->name('buscar');
+
+Route::get('/unete', function(){
+    return view('layout.unete');
+})->name('unete');
+
+/*PONER NOMBRE DE CAFETERIA*/
+
+Route::get('/cafeteria', function(){
+    return view('layout.cafeteria');
+})->name('cafeteria');
+
+Route::get('/perfil', function(){
+    return view('layout.perfil');
+})->name('perfil');
+
+Route::get('/perfiluser', function(){
+    return view('layout.perfiluser');
+})->name('perfiluser');
