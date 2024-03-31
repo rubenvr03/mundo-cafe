@@ -39,7 +39,7 @@
 
          {{-- PARA CADA CAFETERÍA SEGÚN LA BÚSQUEDA --}}
 
-    <div id="elem-buscador">
+    <div class="elem-buscador">
 
       <div class="elem-buscador-img">
         <img src="" alt="Img Cafetería" width="400px" height="400px">

@@ -28,7 +28,7 @@ body {
   font-family: 'CocoGothic', sans-serif;
 }
 
-footer {
+footer, #stars {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -224,13 +224,14 @@ label {
   width: 400px;
 }
 
-input, select {
+input, select, .select{
   text-align: center;
   border: 2px solid #763524;
   border-radius: 20px;
   width: 50%;
   height: 40px;
   margin: 0 0 20px 0;
+  background-color: #FFFFFF;
 }
 
 input[type=textarea] {
@@ -292,7 +293,7 @@ select {
   cursor: pointer;
 }
 
-#elem-buscador {
+.elem-buscador {
   padding: 50px;
   display: flex;
   justify-content: center;
@@ -374,4 +375,88 @@ select {
 
 .form-gral>select {
   margin: 20px;
+}
+
+#cafeteria-info {
+  height: 800px;
+  border: #763524 4px solid;
+  right: 30px;
+  padding: 0 40px;
+  text-align: left;
+}
+
+#cafeteria-img {
+  z-index: 1;
+  width: 500px;
+  height: 500px;
+}
+
+#cafeteria-main>div.elem-buscador {
+  align-items: start;
+}
+
+#cafeteria-title {
+  text-align: center;
+  font-size: 40pt;
+  margin: 0 0 20px 0;
+}
+
+.details {
+  margin: 10px;
+}
+
+.border-container {
+  height: 5px;
+  width: 100%;
+  border-bottom: #763524 2px solid;
+  margin-bottom: 10px;
+}
+
+.select {
+  width: 200px;
+}
+
+#header-block {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 600px;
+}
+
+.edit-btn{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.perfil-title{
+  text-align: left;
+  padding: 2% 20% 0 20%;
+  font-size: 30pt;
+}
+
+.galeria-img {
+  width: 550px;
+  height: 350px;
+  border: #763523 4px solid;
+  margin: 10px;
+}
+
+.elem-buscador>a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#usr-name {
+  padding: 20px 0 ;
+  justify-content: center;
+  font-size: 30pt;
+}
+
+.profile-info {
+  width: 600px;
+  border: #763523 4px solid;
+  background-color: #E0D4C2;
+  text-align: left;
+  padding: 10px;
+  margin-left: 20px;
 }
